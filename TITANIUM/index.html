@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TITANIUM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="icon" href="Imagens trabalho/7587002.ico">
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="topnav">
+        <a class="activer" href="#home" target="_top">HOME</a>
+        <a href="login.html" target="_blank">LOGIN</a>
+        <a href="contact.html" target="_blank">CONTATO</a>
+        <a href="about.html" target="_blank">SOBRE</a>
+    <!-- Musica para meus ouvidos !-->
+        <!-- Musica para meus ouvidos !-->
+        <div class="audio-balloon">
+            <audio controls>
+              <source src="The Last of Us Part II (Main Theme) _ The Last of Us Part II (Original Soundtrack).mp3" type="audio/mp3">
+            </audio>
+          </div>
+       </div>
+     <!-- tema escuro-->
+     <div>
+      <input type="checkbox" class="checkbox" id="chk" />
+      <label class="label" for="chk">
+        <div class="ball"></div>
+      </label>
+      
+    </div>
+
+     <!-- Carrossel abaixo do header -->
+
+     <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="Imagens trabalho/ps5-pro.webp" class="slide-image">
+          <div class="text">DESTAQUE</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="Imagens trabalho/sony-playstation-5.webp" class="slide-image">
+          <div class="text">O MAIS QUERIDO PELA GALERA</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="Imagens trabalho/gta6.jpg" class="slide-image">
+          <div class="text">CONFIRA NOSSO DESTAQUE</div>
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    
+    <!-- Itens do index -->
+
+    <!-- Divs da plus -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');">
+    <img id = "imgplus" src="Imagens trabalho/plusessential.webp">
+    <h5></h5>
+  </div>
+  <div class="column" onclick="openTab('b2');">
+    <img id = "imgplus" src="Imagens trabalho/plus-essencial1.jpg">
+    <h5></h5>
+  </div>
+  <div class="column" onclick="openTab('b3');">
+    <img id = "imgplus" src="Imagens trabalho/plus-deluxe.jpg">
+    <h5></h5>
+  </div>
+</div>
+
+<!-- Novidades -->
+
+<br> <br> <br>
+<h1 id="novo">Novidade: Lançamento de Call of Duty: Black Ops 6!</h1>
+<br> <br> <br>
+
+<img id="cod" src="Imagens trabalho/blackops.jpeg" />
+
+<section class="novidade">
+
+  <div class="contcod">
+
+      <div class="text-cod">
+          <h2>CONFIRA!</h2>
+          <p class="cod-text1">É oficial! A tão aguardada continuação da famosa franquia de jogos de tiro em primeira pessoa, Call of Duty: Black Ops 6, acaba de chegar! Após meses de especulações e teasers, a Activision anunciou o lançamento para o dia 25 de Outubro de 2024.
+          Neste novo capítulo, os jogadores serão transportados para um cenário repleto de ação e conflitos globais intensos. O jogo promete expandir a narrativa envolvente que os fãs já conhecem, com novos personagens e uma trama repleta de reviravoltas.</p>
+          
+          Uma das novidades mais empolgantes é a introdução de um modo multiplayer ainda mais robusto, com mapas dinâmicos e modos de jogo inovadores que prometem elevar a experiência competitiva. Além disso, o modo Zombies retorna, trazendo novos desafios e mecânicas que irão agradar tanto os veteranos quanto os novos jogadores.</p>
+          <p class="cod-text2">Com novos mapas dinâmicos e modos de jogo inovadores que prometem elevar a experiência competitiva. Com uma nova movimentação de tirar o folego, adquira a edição cofre e obtenha acesso aos novos operadores.
+
+            Os gráficos também receberam um upgrade significativo, com melhorias no motor gráfico que tornam a experiência visual ainda mais imersiva. Prepare-se para gráficos de tirar o fôlego e uma jogabilidade fluida!
+            
+            Fique ligado para mais informações e prepare-se para se juntar à batalha em Call of Duty: Black Ops 6! Adquira já</p>
+      </div>
+
+      <div class="divisao2"></div>
+
+  </div>
+
+  
+       <!-- Botao !-->
+       <button class="button-compra" role="button">COMPRAR</button>
+  
+</section>
+
+<img id="extra-catalogo" src="Imagens trabalho/catalogo4.webp" />
+
+<section class="novidadeplus">
+
+    <div class="contplus">
+  
+        <div class="text-plus">
+            <h2>ASSINATURA PLAYSTATION PLUS!</h2>
+            <p class="plus-text1">É oficial! O catálogo da PlayStation Plus Extra e Deluxe acaba de receber uma atualização empolgante! Após uma espera ansiosa, a Sony anunciou uma nova seleção de jogos que estará disponível para os assinantes a partir de 15 de Novembro de 2024. Essa nova atualização traz uma variedade incrível de títulos, desde clássicos nostálgicos até lançamentos recentes, proporcionando uma experiência de jogo diversificada para todos os gostos.
+                Entre as novidades, destacam-se jogos de ação eletrizante, aventuras imersivas e RPGs que vão prender sua atenção por horas. Os assinantes do plano Deluxe ainda poderão aproveitar títulos de PlayStation 1, 2 e PSP, permitindo uma viagem nostálgica pelos jogos que moldaram a indústria. Prepare-se para revisitar os clássicos com gráficos aprimorados e funcionalidades modernas!</p>
+            <p class="plus-text2">Uma das adições mais emocionantes é a inclusão de títulos que estão fazendo sucesso atualmente, com modos de jogo inovadores e expansões que prometem aumentar a jogabilidade. Além disso, os jogadores poderão experimentar demos exclusivas de lançamentos futuros, oferecendo uma prévia do que está por vir.
+
+                Com uma interface amigável e melhorias na navegação, explorar o catálogo ficou ainda mais fácil. Se você ainda não é assinante, agora é o momento perfeito para se juntar à comunidade PlayStation Plus e ter acesso a essa vasta biblioteca de jogos. Fique ligado para mais informações e prepare-se para horas de diversão com o novo catálogo da PlayStation Plus Extra e Deluxe! Adquira já!</p>
+        </div>
+  
+        <div class="divisao3"></div>
+  
+    </div>
+    
+  </section>
+
+<img id="plus-now" src="Imagens trabalho/New_PS_Plus_Subscriptions_04dac6c501.avif" />
+
+
+<!-- Footer do index -->
+   
+     
+<footer>
+  <div id="footer_content">
+      <div id="footer_contacts">
+          <h1>TITANIUM</h1>
+          <p>Entre na gameplay, acenda a diversão!</p>
+
+          <div id="footer_social_media">
+          <a href="https://www.instagram.com/igorr.boy/" target="_blank" class="footer-link" id="instagram">
+              <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/PlayStationBR" class="footer-link" id="facebook">
+              <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="#" class="footer-link" id="whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          </div>
+      </div>
+
+      <ul class="footer-list">
+          <li>
+              <h3>BLOG</h3>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Mantenha-se atualizado com dicas e truques dos melhores gamers!</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Leia entrevistas exclusivas com desenvolvedores e influenciadores do mundo dos jogos!</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Confira as últimas novidades do setor e prepare-se para os novos lançamentos</a>
+          </li>
+
+      </ul>
+
+      <ul class="footer-list">
+          <li>
+              <h3>PRODUTOS</h3>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Explore promoções imperdíveis e leve para casa seus títulos favoritos!</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Junte-se à nossa comunidade e aproveite ofertas exclusivas em produtos!</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Navegue pela nossa coleção de jogos e encontre sua próxima grande aventura!</a>
+          </li>
+
+      </ul>
+
+      <div id="footer_subscribe">
+          <h3>AJUDA</h3>
+
+          <p>ENVIE SEU EMAIL PARA RECEBER AJUDA</p>
+
+          <div id="input_group">
+              <input type="email" id="email">
+              <button>
+                  <i class="fa-regular fa-envelope"></i>
+              </button>
+          </div>
+      </div>
+
+  </div>
+
+
+  <div id="footer_copyright">
+      &#169
+      2024 all rights reserved
+  </div>
+
+</footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

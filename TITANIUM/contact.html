@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contate-nos</title>
+    <link href="contact.css" rel="stylesheet"/>
+    <link rel="icon" href="Imagens trabalho/7587002.ico">
+</head>
+
+<body>
+
+    <!-- HTML Página de contato -->
+
+    <form
+        id="contactForm"
+        action="https://formsubmit.co/your@email.com"
+        method="POST"
+        class="form"
+    >
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" required placeholder="Digite o seu nome: "/>
+        
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required placeholder="Digite o e-mail da sua conta: "/>
+        
+        <label for="message">Mensagem</label>
+        <textarea name="message" id="message" required placeholder="..."></textarea>
+
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html" />
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- feedback não funfaaaaaaaaaaa -->
+    <p id="formMessage"></p>
+
+
+  <script src="scriptcontact.js"></script>
+</body>
+</html>
